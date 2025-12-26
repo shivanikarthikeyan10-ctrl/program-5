@@ -7,9 +7,11 @@ Register Number:25013585
 
 
 AIM:
+
 Write a C program to check whether the number 8887 is even number or odd number using pointers.
 
 ALGORITHM:
+
 Start the program.
 
 Declare an integer variable to store the input number and an integer pointer variable.
@@ -27,6 +29,7 @@ b. Otherwise, print " is odd."
 End the program.
 
 PROGRAM:
+
 #include<stdio.h>
 int main()
 {
@@ -38,9 +41,14 @@ int main()
     else
     printf("%d is odd.",num);
 }
+
+
 OUTPUT:
+
 Screenshot 2025-10-20 083200
+
 RESULT:
+
 Thus the program to check whether the number 8887 is even number or odd number using pointers has been executed successfully
 
 Program-5-b
@@ -49,10 +57,14 @@ EX_NO-05)b)-Functions & Storage Classes
 Date: 26/12/25
 Name: SHIVANI K
 Register Number: 25013585
+
+
 AIM:
+
 write a program to print even numbers in given range using recursion
 
 ALGORITHM:
+
 Start the program.
 
 Define a function named even that takes two integer arguments: st (start) and end.
@@ -78,6 +90,7 @@ d. Call the even function with st and end as arguments.
 End the program.
 
 PROGRAM:
+
 #include<stdio.h>
 void even(int st,int end)
 {
@@ -94,10 +107,17 @@ int main()
     printf("Even Numbers from %d to %d are:",st,end);
     even(st,end);
 }
+
+
 OUTPUT:
+
+
 Screenshot 2025-10-20 083757
+
 RESULT:
+
 Thus the program to print even numbers in given range using recursion has been executed successfully
+
 
 Program-5-c
 C-Module 5
@@ -105,10 +125,14 @@ EX_NO-05)c)-Arrays & Its Operations
 Date: 26/12/25
 Name: SHIVANI K
 Register Number:25013585
+
+
 AIM:
+
 Write a C Program to displays the lower triangular and its sum of a matrix
 
 ALGORITHM:
+
 Start the program.
 
 Declare two integer variables to store the number of rows and columns.
@@ -145,7 +169,9 @@ After processing all elements, print the total sum of the lower triangle.
 
 End the program.
 
+
 PROGRAM:
+
 #include<stdio.h>
 int main()
 {
@@ -179,10 +205,17 @@ int main()
     }
     printf("Sum of Lower Triangle is %d",sum);
 }
+
+
 OUTPUT:
+
+
 Screenshot 2025-10-20 084241
+
 RESULT:
+
 Thus the program to displays the lower triangular and its sum of a matrix has been executed successfully
+
 
 Program-5-d
 C-Module 5
@@ -190,10 +223,14 @@ EX_NO-05)e)-Strings
 Date: 26/12/25
 Name: SHIVANI K
 Register Number:25013585
+
+
 AIM:
+
 Write a program in C to replace the spaces of a string with a specific character.
 
 ALGORITHM:
+
 Start the program.
 
 Declare a character array to store the input string and a character variable to store the replacement character.
@@ -210,7 +247,9 @@ After the loop, print the updated string along with a message showing the replac
 
 End the program.
 
+
 PROGRAM:
+
 #include<stdio.h>
 #include<string.h>
 #include<ctype.h>
@@ -227,9 +266,14 @@ int main()
     }
     printf("After replacing the space with  %c the new string is :\n%s",ch,str);
 }
+
+
 OUTPUT:
+
 Screenshot 2025-10-20 085227
+
 RESULT:
+
 Thus the program to replace the spaces of a string with a specific character has been executed successfully
 
 Program-5-e
@@ -238,10 +282,14 @@ EX_NO-05)e)-Arrays
 Date: 26/12/25
 Name: SHIVANI K
 Register Number:25013585
+
+
 AIM:
+
 Write a C Program to displays the lower triangular of a matrix
 
 ALGORITHM:
+
 Start the program.
 
 Declare two integer variables to store the number of rows and columns.
@@ -274,7 +322,9 @@ b. Move to a new line after each row.
 
 End the program.
 
+
 PROGRAM:
+
 #include<stdio.h>
 int main()
 {
@@ -306,7 +356,12 @@ int main()
         printf("\n");
     }
 }
+
+
 OUTPUT:
+
 Screenshot 2025-10-20 090503
+
 RESULT:
+
 Thus the program to displays the lower triangular of a matrix has been executed successfully
