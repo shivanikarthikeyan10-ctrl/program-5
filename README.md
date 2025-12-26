@@ -4,6 +4,8 @@ EX_NO-05)a)-Pointers
 Date: 26/12/25
 Name: SHIVANI K
 Register Number:25013585
+
+
 AIM:
 Write a C program to check whether the number 8887 is even number or odd number using pointers.
 
